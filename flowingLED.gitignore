@@ -1,0 +1,18 @@
+# STM32CubeIDE编译输出
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+
+# CubeIDE配置缓存
+.cproject
+.project
+.launch
+.settings/
+.metadata/
+
+# 系统文件
+Thumbs.db
+.DS_Store
