@@ -1,0 +1,46 @@
+# ============================================================
+#  STM32CubeIDE 工程 .gitignore
+#  只提交源码与工程配置，忽略可再生的编译产物
+# ============================================================
+
+# --- 编译输出目录（Eclipse 构建配置，Debug 目录约 14.7 MB 全部是产物）---
+/Debug/
+/Release/
+/Debug*/
+/Release*/
+
+# --- 目标文件 / 中间产物（兜底，正常都在 Debug/ 里）---
+*.o
+*.d
+*.su
+*.crf
+*.dep
+*.dmp
+*.iex
+*.map
+*.list
+*.elf
+*.bin
+*.hex
+*.axf
+*.obj
+*.lst
+
+# --- Eclipse 工作区元数据（机器相关、含绝对路径，绝不能提交）---
+#     注意：工程自己的 .project / .cproject / .mxproject / .settings 必须提交！
+.metadata/
+RemoteSystemsTempFiles/
+*.launch.bak
+.cache/
+
+# --- 编辑器 / 操作系统杂物 ---
+Thumbs.db
+desktop.ini
+Desktop.ini
+*~
+*.tmp
+*.bak
+*.swp
+.idea/
+.vscode/
+*.code-workspace
